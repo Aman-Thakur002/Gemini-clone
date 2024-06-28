@@ -13,7 +13,7 @@ import {
     GoogleGenerativeAI,
   } from '@google/generative-ai';
   
-  const apiKey = 'AIzaSyClTa1HBphmAqPfcwI-y2mxM1h4f7ueo-k';
+  const apiKey = 'Project ID';
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
